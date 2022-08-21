@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.galeria{ 
+    display: flex; /* este es el diaplay de flex*/
+     width: 100%; /*este es el ancho de % */
+     margin: 0 auto; /*este es el margen en auto */
+
+}
+
+.columna{ 
+    display: grid; /*este es el display de grid*/
+    grid-template-columns: repeat(3, 2fr);/*este es el ancho de las columnas*/
+    grid-gap: 10px; /*este es el espacion entre columna*/
+    
+}
+
+.card{
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-self: center;
+   padding: 20px;
+   border: 1px solid white;
+   margin-bottom: 10px;
+
+}
+
+.img{
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+  cursor: pointer;
+
+}
+
+header{
+    width: 100%;
+    height: 3.5em;
+    background-color:aqua;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+nav{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+}
